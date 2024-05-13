@@ -1,0 +1,44 @@
+.parent{
+    background: #bee4f1;
+    border-radius: 5% 5% 0 0;
+    padding: 8px;
+    display: grid;
+    gap: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(5,50px);
+    grid-template-areas: 
+    "Header Header Header Header"
+    "Aside Article Article Article"
+    "Aside Article Article Article"
+    "Aside Image Image1 Image2"
+    "Footer Footer Footer Footer"
+    ;
+
+}
+.Header{
+    background:#02b9ab ;
+    grid-area: Header;}
+.Aside{
+    background:#6bd46b;
+    grid-area: Aside;
+}
+.Article{
+    display: flex;
+    background:#f3aa4a ;
+    grid-area: Article;}
+.Image{
+    background:#f4cb48 ;
+    grid-area: Image;}
+    .Image1{
+        background:#f4cb48 ;
+        grid-area: Image1;}
+        .Image2{
+            background:#f4cb48 ;
+            grid-area: Image2;}  
+.Footer{
+    background:#02b9ab ;
+    grid-area: Footer;}

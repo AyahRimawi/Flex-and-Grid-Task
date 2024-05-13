@@ -1,0 +1,47 @@
+.parent{
+    background: white;
+    display: grid;
+    gap: 7px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 
+    "Section1 Section1 Section1"
+    "Section2 MainContent MainContent"
+    "Section2 MainContent MainContent"
+    "Section3 MainContent MainContent"
+    "Section3 ExtraContent ExtraContent"
+    "Section3 ExtraContent ExtraContent"
+    "RelatedImages RelatedImages RelatedPosts"
+    "Footer Footer Footer"
+    ;
+
+}
+.Section1{
+    background:#62eb55 ;
+    grid-area: Section1;}
+.Section2{
+    background:#d5c9e2;
+    grid-area: Section2;}
+.MainContent{
+    background:#b59f5f ;
+    grid-area: MainContent;}
+.Section3{
+    background:#495a2a ;
+    grid-area: Section3;}
+.ExtraContent{
+    background:#a4b092 ;
+    grid-area: ExtraContent;}
+.RelatedImages{
+    background:#2b81b6 ;
+    grid-area: RelatedImages;}
+.RelatedPosts{
+    background:#c6487d ;
+    grid-area: RelatedPosts;}
+.Footer{
+    background:#0008ff ;
+    grid-area: Footer; 
+}
+p{font-size: xx-small;}
