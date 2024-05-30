@@ -1,26 +1,22 @@
 .parent{
     background: #baffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 25px;
-    height: 500px;
-    width: 350px;
-    margin: 100px;
- align-content:start;
- text-decoration-line: initial;
+    height: 600px;
+    width:400px;}
 
-}
-
-
-.User1, .User2, .User3, .User4{
+ #box{
     background:#cfd28b ;
-    height: 500px;
-    width: 350px;
-    box-shadow: 5px 2px 2px 2px rgba(166, 159, 159, 0.5);
-
-}
-img{width: 20%;
-    transform: translateY(45px);
-}
-p{margin-left: 70px;}
+    padding: 40px 40px;
+    border-radius: 40px;
+    height: auto;
+    box-shadow: 5px 2px 2px 2px rgba(166, 159, 159, 0.5);} 
+#User{
+    display: flex !important;
+    flex-direction: row;}
+hr{
+    width: auto;
+    height: 1px;
+    background-color: white;}
+.text{
+    padding-left: 20px;
+    padding-top: 10px;}

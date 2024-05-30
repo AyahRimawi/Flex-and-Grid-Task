@@ -15,30 +15,40 @@
     "Aside Article Article Article"
     "Aside Article Article Article"
     "Aside Image Image1 Image2"
-    "Footer Footer Footer Footer"
-    ;
-
+    "Footer Footer Footer Footer";
 }
+
 .Header{
     background:#02b9ab ;
-    grid-area: Header;}
+    grid-area: Header;
+    /* padding: 20px ; */
+}
 .Aside{
     background:#6bd46b;
     grid-area: Aside;
+    /* padding: 70px ; */
 }
 .Article{
-    display: flex;
     background:#f3aa4a ;
-    grid-area: Article;}
+    grid-area: Article;
+    /* padding: 90px; */
+}
 .Image{
     background:#f4cb48 ;
-    grid-area: Image;}
-    .Image1{
-        background:#f4cb48 ;
-        grid-area: Image1;}
-        .Image2{
-            background:#f4cb48 ;
-            grid-area: Image2;}  
+    grid-area: Image;
+    /* padding: 5px ; */
+}
+.Image1{
+    background:#f4cb48 ;
+    grid-area: Image1;
+    /* padding: 5px ; */
+}
+.Image2{
+    background:#f4cb48 ;
+    grid-area: Image2;
+    /* padding: 5px ; */
+}  
 .Footer{
     background:#02b9ab ;
-    grid-area: Footer;}
+    grid-area: Footer;
+    padding: 20px ;}

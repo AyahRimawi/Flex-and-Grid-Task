@@ -15,9 +15,7 @@
     "Section3 ExtraContent ExtraContent"
     "Section3 ExtraContent ExtraContent"
     "RelatedImages RelatedImages RelatedPosts"
-    "Footer Footer Footer"
-    ;
-
+    "Footer Footer Footer";
 }
 .Section1{
     background:#62eb55 ;
@@ -42,6 +40,5 @@
     grid-area: RelatedPosts;}
 .Footer{
     background:#0008ff ;
-    grid-area: Footer; 
-}
+    grid-area: Footer; }
 p{font-size: xx-small;}
